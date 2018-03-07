@@ -119,4 +119,8 @@ fun main(args: Array<String>) {
         println("age = ${age}")
         age += 1
     }
+	
+    // Display a line that contains the greeting string followed by
+    // a space followed by the name string.
+    print("${greeting} ${name}")
 }
